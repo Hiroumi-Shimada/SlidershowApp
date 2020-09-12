@@ -13,6 +13,10 @@
 		2288F69324FD9C3800168D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2288F69124FD9C3800168D06 /* Main.storyboard */; };
 		2288F69524FD9C3B00168D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2288F69424FD9C3B00168D06 /* Assets.xcassets */; };
 		2288F69824FD9C3B00168D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2288F69624FD9C3B00168D06 /* LaunchScreen.storyboard */; };
+		2288F6A224FDA4B800168D06 /* tozan_trekking_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288F6A124FDA4B800168D06 /* tozan_trekking_man.png */; };
+		2288F6A424FE655A00168D06 /* senkou_hanabi_boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288F6A324FE655900168D06 /* senkou_hanabi_boy.png */; };
+		2288F6A624FE656A00168D06 /* drink_beer_yukata_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 2288F6A524FE656A00168D06 /* drink_beer_yukata_man.png */; };
+		2288F6A8250830BA00168D06 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2288F6A7250830BA00168D06 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2288F69424FD9C3B00168D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2288F69724FD9C3B00168D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2288F69924FD9C3B00168D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2288F6A124FDA4B800168D06 /* tozan_trekking_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tozan_trekking_man.png; path = ../../../../../Downloads/tozan_trekking_man.png; sourceTree = "<group>"; };
+		2288F6A324FE655900168D06 /* senkou_hanabi_boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = senkou_hanabi_boy.png; path = ../../../../../Downloads/senkou_hanabi_boy.png; sourceTree = "<group>"; };
+		2288F6A524FE656A00168D06 /* drink_beer_yukata_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drink_beer_yukata_man.png; path = ../../../../../Downloads/drink_beer_yukata_man.png; sourceTree = "<group>"; };
+		2288F6A7250830BA00168D06 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		2288F68A24FD9C3800168D06 /* SlidershowApp */ = {
 			isa = PBXGroup;
 			children = (
+				2288F6A524FE656A00168D06 /* drink_beer_yukata_man.png */,
+				2288F6A324FE655900168D06 /* senkou_hanabi_boy.png */,
+				2288F6A124FDA4B800168D06 /* tozan_trekking_man.png */,
 				2288F68B24FD9C3800168D06 /* AppDelegate.swift */,
 				2288F68D24FD9C3800168D06 /* SceneDelegate.swift */,
 				2288F68F24FD9C3800168D06 /* ViewController.swift */,
+				2288F6A7250830BA00168D06 /* ResultViewController.swift */,
 				2288F69124FD9C3800168D06 /* Main.storyboard */,
 				2288F69424FD9C3B00168D06 /* Assets.xcassets */,
 				2288F69624FD9C3B00168D06 /* LaunchScreen.storyboard */,
@@ -125,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2288F6A624FE656A00168D06 /* drink_beer_yukata_man.png in Resources */,
 				2288F69824FD9C3B00168D06 /* LaunchScreen.storyboard in Resources */,
 				2288F69524FD9C3B00168D06 /* Assets.xcassets in Resources */,
+				2288F6A424FE655A00168D06 /* senkou_hanabi_boy.png in Resources */,
+				2288F6A224FDA4B800168D06 /* tozan_trekking_man.png in Resources */,
 				2288F69324FD9C3800168D06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				2288F69024FD9C3800168D06 /* ViewController.swift in Sources */,
 				2288F68C24FD9C3800168D06 /* AppDelegate.swift in Sources */,
 				2288F68E24FD9C3800168D06 /* SceneDelegate.swift in Sources */,
+				2288F6A8250830BA00168D06 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
